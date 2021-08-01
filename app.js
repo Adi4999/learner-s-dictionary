@@ -103,7 +103,7 @@ if(typeof data[0]==='string'){
 }
 loading.style.display='none';
 let defination=data[0].shortdef[0];
-defBox.innerHTML=`<strong>Defination</strong> : ${defination}.`;
+defBox.innerHTML=`<strong>Definition</strong> : ${defination}.`;
 const soundName= data[0].hwi.prs[0].sound.audio;
 if(soundName){
    renderSound(soundName); 
